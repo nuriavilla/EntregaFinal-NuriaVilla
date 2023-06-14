@@ -1,0 +1,30 @@
+.body {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 1rem;
+}
+
+#logosaltaods {
+  width: 200px;
+}
+
+footer {
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 350px;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+}
