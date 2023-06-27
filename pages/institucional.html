@@ -4,68 +4,152 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="../imagenes/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Mi CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- My Fonts -->
+    <link="
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap"
+    rel="stylesheet" />
+
+    <!-- Mi Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Institucional</title>
   </head>
   <body>
-    <header><h2>Institucional</h2></header>
-    <header>
-      <a href="../index.html">
-        <img
-          src="../imagenes/logoodssaltasi.png"
-          alt="logo ods agenda 2030 de la provincia de salta"
-      /></a>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="agenda2030.html"
+          ><a id="logosaltaods">
+            <img
+              class="container"
+              src="../imagenes/logoodssaltasi.png"
+              alt="logo ods agenda 2030 de la provincia de salta"
+            /> </a
+        ></a>
+        <button
+          class="navbar-toggler p-10"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agenda2030.html">Agenda 2030 </a>
+            </li>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="/index.html">Inicio</a>
-            <a href="institucional.html">Institucional</a>
-            <a href="ods.html">ODS</a>
-            <a href="informesanuales.html">Informes Anuales</a>
-            <a href="agenda2030.html">Agenda 2030</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <h3>Secretaría de Relaciones Institucionales e Internacionales</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-          doloribus ab quod fugit culpa iste asperiores, accusantium saepe rem
-          sint! Et reiciendis adipisci vel incidunt voluptas maxime mollitia
-          accusantium quod neque totam. Itaque quam voluptatibus dignissimos
-          tenetur. Repellendus reprehenderit voluptates magni laboriosam iste
-          alias, vitae natus quod, obcaecati quos quae dolorem sapiente
-          consequatur iusto amet ipsum quas vero error dignissimos nulla
-          placeat, unde illo deleniti. Tenetur odio, iure esse totam corrupti
-          eaque officiis molestias rerum nemo dolores atque eligendi porro,
-          sunt, est at id sed dolore placeat eius quisquam reiciendis provident
-          soluta! Nulla odio, modi laudantium fugit eaque quidem aliquid!
-        </p>
-        <img
-          src="../imagenes/imagen_institucional.webp"
-          alt="imagen de relleno"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-          aliquid fugit pariatur ipsum quae nemo esse cupiditate, quas delectus,
-          nam autem laudantium ab, veniam temporibus impedit tempora rem.
-          Perferendis quia qui possimus, assumenda aut est impedit! Natus
-          aliquid vel ipsam. Mollitia vero laudantium vitae, iusto
-          necessitatibus modi quibusdam officiis ad reprehenderit culpa ducimus
-          sit harum omnis quo totam placeat neque iste! Tempora ipsa, expedita
-          atque ipsum itaque tempore neque repudiandae? Quidem molestiae
-          excepturi rem quas reiciendis quod vitae ut provident cupiditate at
-          enim magnam dolore qui magni officiis dolores ducimus quo iusto
-          laborum commodi, a pariatur placeat aut? Alias qui consequatur modi
-          assumenda quod consequuntur consectetur earum magni placeat, nihil
-          voluptatem ducimus, ratione unde explicabo beatae obcaecati quam iure
-          numquam!
-        </p>
-      </article>
-    </main>
+            <li class="nav-item">
+              <a class="nav-link" href="ods.html">ODS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="informesanuales.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Informes Anuales
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Informe 2018-2019</a></li>
+                <li><a class="dropdown-item" href="#">Informe 2019-2020</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Informe 2020-2021</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Informe 2021-2022</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institucional.html">Institucional</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <article>
+      <h3>Secretaría de Relaciones Institucionales e Internacionales</h3>
+      <p>
+        La Secretaría de Relaciones Institucionales e Internacionales es el área
+        gubernamental responsable del desarrollo, adecuación, seguimiento y
+        monitoreo de los Objetivos de Desarrollo Sostenible contenidos en la
+        Agenda de Salta. Además, de ser la Repartición responsable de la
+        definición de sus indicadores, de la adaptación de sus metas, del
+        proceso de adaptación y vinculación de los programas de política pública
+        con los objetivos y de la validación de los avances conseguidos ante el
+        Consejo Económico y Social (CES Salta) y el Consejo Nacional de
+        Coordinación de Políticas Sociales (CNCPS). Así como también, conducir
+        un proceso de sensibilización ante actores gubernamentales, no
+        gubernamentales, instituciones académicas y Organizaciones de la
+        Sociedad Civil (OSC) en la difusión e instalación de la AGENDA 2030 y
+        los ODS en distintos ámbitos de Salta.
+      </p>
+    </article>
+
+    <div>
+      <img
+        src="../imagenes/imagen_institucional.webp"
+        alt="imagen de relleno"
+      />
+    </div>
+    <article>
+      Los ODS deben perseguirse con creatividad, persistencia, e innovación.
+      Prestando especial atención a:
+      <div>
+        • La inclusión de las mujeres, pueblos originarios, discapacitados,
+        jóvenes, adultos mayores para reducir disparidades, la expansión de los
+        sistemas de protección social, la mejora en la calidad de los servicios
+        públicos como la educación e infraestructura básicas.
+      </div>
+      <div>
+        • La promoción del diálogo y la participación ciudadana para la
+        construcción de una cultura de la confianza en las instituciones.
+        Demostrando la sustentabilidad fiscal, un gasto público más eficiente,
+        mejorando la eficiencia y la transparencia de las recaudaciones
+        tributarias.
+      </div>
+      <div>
+        • La integración, la transformación digital, la innovación y la
+        cooperación internacional, respecto de las iniciativas para aliviar la
+        economía. Identificando las mejores formas de cooperación y refundando
+        el multilateralismo.
+      </div>
+      <div>
+        • La generación de conciencia y acciones urgentes respecto del cuidado
+        de nuestras riquezas naturales y la sustentabilidad ambiental.
+      </div>
+    </article>
+
     <footer>
       <img
         src="../imagenes/logosecretariarrii.png"
@@ -83,5 +167,11 @@
         <p>rriisalta@gmail.com</p>
       </div>
     </footer>
+    <!-- JS de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

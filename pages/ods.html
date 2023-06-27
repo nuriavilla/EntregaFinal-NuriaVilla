@@ -4,29 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="../imagenes/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Mi CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- My Fonts -->
+    <link="
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap"
+    rel="stylesheet" />
+
+    <!-- Mi Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>ODS</title>
   </head>
   <body>
-    <header>
-      <a href="../index.html">
-        <img
-          src="../imagenes/logoodssaltasi.png"
-          alt="logo ods agenda 2030 de la provincia de salta"
-      /></a>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="agenda2030.html"
+          ><a id="logosaltaods">
+            <img
+              class="container"
+              src="../imagenes/logoodssaltasi.png"
+              alt="logo ods agenda 2030 de la provincia de salta"
+            /> </a
+        ></a>
+        <button
+          class="navbar-toggler p-10"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="agenda2030.html">Agenda 2030 </a>
+            </li>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="../index.html">Inicio</a>
-            <a href="institucional.html">Institucional</a>
-            <a href="ods.html">ODS</a>
-            <a href="informesanuales.html">Informes Anuales</a>
-            <a href="agenda2030.html">Agenda 2030</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+            <li class="nav-item">
+              <a class="nav-link" href="ods.html">ODS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="informesanuales.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Informes Anuales
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Informe 2018-2019</a></li>
+                <li><a class="dropdown-item" href="#">Informe 2019-2020</a></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Informe 2020-2021</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Informe 2021-2022</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="institucional.html">Institucional</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <main>
       <h2>Objetivos de Desarrollo Sostenible</h2>
       <article>
@@ -35,18 +106,20 @@
           alt="imagen Objetivo de Desarrollo Sustentable 1 fin de la pobreza"
         />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-          distinctio laboriosam facilis perspiciatis voluptatem tempore
-          blanditiis, modi quam numquam eligendi nostrum doloribus voluptatibus
-          quibusdam quis autem at itaque ut dolorem dignissimos sed suscipit.
-          Quaerat veritatis maiores placeat voluptatem dolorum aliquam commodi
-          accusantium sequi fugit, voluptatum quo quis hic aut ut corporis esse
-          eveniet dignissimos odit consequuntur nobis? Dolorem rerum incidunt
-          omnis maxime! Facilis, saepe eveniet ratione alias non beatae pariatur
-          animi. Cumque ducimus animi unde ut delectus! Sed, dolorem quisquam
-          dignissimos necessitatibus enim nam amet excepturi, voluptates quos
-          aut, provident perferendis voluptatibus omnis pariatur laudantium odio
-          in. Maxime, culpa ea.
+          "Acabar con la pobreza en todas sus formas, en todas partes" Los
+          índices de pobreza extrema se han reducido a la mitad desde 1990. Si
+          bien este es un logro notable, una de cada cinco personas de las
+          regiones en desarrollo aún vive con menos de 1,25 dólares al día.
+          Además, muchas personas corren el riesgo de recaer en la pobreza. La
+          pobreza va más allá de la falta de ingresos y recursos y apunta a la
+          necesidad de garantizar unos medios de vida sostenibles para poder
+          acceder a las oportunidades y participar plenamente en la sociedad.
+          Entre sus manifestaciones se incluyen el hambre y la malnutrición, el
+          acceso limitado a la educación y a otros servicios básicos, la
+          discriminación y la exclusión sociales y la falta de participación en
+          la adopción de decisiones. El crecimiento económico debe ser inclusivo
+          con el fin de crear empleos sostenibles, promover la igualdad y
+          erradicar la pobreza, incluida la pobreza extrema.
         </p>
       </article>
       <article>
@@ -55,18 +128,8 @@
           alt="imagen Objetivo de Desarrollo Sustentable 2 hambre cero"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-          consequuntur enim modi excepturi et, numquam reprehenderit, beatae
-          earum iste asperiores reiciendis consequatur molestiae necessitatibus
-          ipsum? Odio, minima eligendi vero quia consequatur praesentium ad
-          aliquid rerum, non debitis, quo eveniet. Voluptatum provident, ipsa
-          dicta debitis perspiciatis quas ut atque commodi, officia porro et
-          reprehenderit nam ullam ducimus autem laboriosam dolorem, odio optio
-          dignissimos alias illo vero architecto. Dicta tempore vitae in quos
-          quasi unde consequatur deleniti consequuntur error quod impedit cumque
-          ad architecto neque atque, magnam incidunt quia dolorem, ipsum autem
-          totam quibusdam quis reprehenderit. Excepturi dolor libero corporis id
-          nostrum.
+          "Hambre cero" Poner fin al hambre, lograr la seguridad alimentaria y
+          la mejora de la nutrición y promover la agricultura sostenible
         </p>
       </article>
       <article>
@@ -75,18 +138,13 @@
           alt="imagen Objetivo de Desarrollo Sustentable 3 salud y bienestar"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          dolore, quod et nihil vel ex reiciendis libero, eligendi quo magnam
-          delectus tempore beatae cumque sapiente nulla illum repudiandae
-          placeat aspernatur saepe! Perferendis minima laboriosam eius
-          temporibus odio fugit tempore aperiam error praesentium soluta, sed
-          qui dolore labore laudantium deserunt dolorum nisi asperiores iure,
-          consequuntur deleniti consequatur provident exercitationem iusto.
-          Officiis labore omnis explicabo magni minus deserunt perferendis est,
-          ab, esse ducimus ipsam doloribus excepturi doloremque nesciunt.
-          Assumenda ipsum, odit sunt hic facilis animi soluta dolor possimus
-          quasi asperiores perferendis nisi voluptates, ad iste necessitatibus
-          at aspernatur inventore facere aperiam doloremque.
+          "Salud y bienestar" Busca garantizar una vida sana y promover el
+          bienestar para todos en todas las edades, y asegurar así el desarrollo
+          sostenible. Entre sus metas está la reducción de la tasa mundial de
+          mortalidad materna y poner fin a las muertes evitables de los recién
+          nacidos y menores de cinco años. Se persigue el fin de las epidemias y
+          enfermedades transmisibles y no transmisibles mediante prevención y
+          tratamiento.
         </p>
       </article>
       <article>
@@ -95,18 +153,20 @@
           alt="imagen Objetivo de Desarrollo Sustentable 4 educacion de calidad"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quas
-          obcaecati harum amet quo, ipsum voluptas dolore voluptatum ea ut
-          aliquam dolorum quis nisi dignissimos, debitis quaerat. Labore dolores
-          ut eos temporibus doloremque saepe perferendis pariatur, voluptate
-          soluta possimus minima facere corporis! Itaque quod dolor illum, atque
-          ut explicabo perferendis corporis corrupti provident suscipit
-          voluptates nam voluptatibus reprehenderit ducimus pariatur. Corrupti
-          unde sapiente dolore, beatae magnam repellendus eum laborum possimus
-          velit? Laboriosam deleniti amet soluta sint autem repellendus iusto,
-          eius minus excepturi dicta reprehenderit reiciendis officiis
-          recusandae neque enim hic quasi beatae impedit aperiam quam. Amet
-          recusandae maiores quos rerum?
+          "Garantizar una educación inclusiva, equitativa y de calidad y
+          promover oportunidades de aprendizaje durante toda la vida para todos"
+          La consecución de una educación de calidad es la base para mejorar la
+          vida de las personas y para lograr un desarrollo sostenible. En
+          América Latina y el Caribe, se han producido importantes avances con
+          relación a la mejora en el acceso a la educación a todos los niveles y
+          al incremento de las tasas de escolarización en las escuelas, sobre
+          todo en el caso de las mujeres y las niñas. Ha aumentado en gran
+          medida el nivel mínimo de alfabetización, si bien es necesario
+          redoblar los esfuerzos para conseguir mayores avances en el logro de
+          los objetivos de la educación universal. Por ejemplo, se ha alcanzado
+          la igualdad entre niñas y niños en la educación primaria en el mundo,
+          pero pocos países han conseguido ese objetivo en todos los niveles
+          educativos.
         </p>
       </article>
       <article>
@@ -115,18 +175,22 @@
           alt="imagen Objetivo de Desarrollo Sustentable 5 igualdad de genero"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum atque
-          voluptas reprehenderit, obcaecati voluptatum assumenda similique
-          mollitia cupiditate ratione aliquid sint cumque aut nemo earum maxime
-          ab veniam ipsum consequatur vero laudantium illo iure quibusdam
-          repellat accusantium. Eius nesciunt, aspernatur quidem totam voluptas
-          numquam voluptates quod dolorem recusandae, possimus placeat saepe
-          optio. Quisquam praesentium sapiente quae corporis cupiditate numquam
-          ducimus placeat cum nemo. Accusantium magni, eaque labore,
-          necessitatibus perspiciatis quia culpa delectus dolores pariatur sint
-          quas tempora totam laudantium voluptates est minus? Quam deleniti
-          laboriosam, quae blanditiis ad pariatur aspernatur ipsa aut quasi cum
-          consequuntur corporis sequi in accusamus numquam!
+          "Lograr la igualdad entre los géneros y empoderar a todas las mujeres
+          y las niñas" Si bien se han producido avances a nivel mundial con
+          relación a la igualdad de género, las mujeres y las niñas siguen
+          enfrentando discriminación y violencia estructurales en todos los
+          lugares del mundo. La igualdad de género no es solo un derecho humano
+          fundamental, sino la base necesaria para alcanzar un mundo pacífico,
+          próspero y sostenible. La igualdad de género está intrínsecamente
+          vinculada al desarrollo sostenible y es vital para el cumplimiento de
+          los derechos humanos de todas y todos. La igualdad de género se
+          alcanza cuando en una sociedad las mujeres y los hombres disfrutan de
+          las mismas oportunidades y derechos en todas las esferas de la vida.
+          Si se facilita a las mujeres y niñas el acceso a la salud, a un
+          trabajo decente y a la participación en los procesos de toma de
+          decisiones políticas y económicas, se impulsarán las economías
+          sostenibles y se beneficiará a las sociedades y a la humanidad en su
+          conjunto.
         </p>
       </article>
       <article>
@@ -135,18 +199,21 @@
           alt="imagen Objetivo de Desarrollo Sustentable agua limpia y saneamiento"
         />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
-          inventore dolor ipsa eos, corporis repellendus aliquam iste modi
-          perspiciatis ea quas accusamus. Deleniti repellat impedit eligendi
-          voluptates enim omnis quaerat molestias dolores neque itaque culpa,
-          asperiores commodi. Expedita aspernatur laboriosam totam eligendi
-          commodi, magni sit ipsum reiciendis itaque delectus minus earum odio
-          adipisci perspiciatis saepe voluptatum. Nobis ut iusto nostrum
-          asperiores! Quaerat alias libero officiis vitae deserunt eum illo at,
-          placeat quae veritatis dolor facere voluptate veniam porro dignissimos
-          voluptas quisquam, saepe est ipsum dolorum! Architecto earum quos
-          officiis sit maxime impedit, magni exercitationem veniam, illo vero
-          culpa, expedita necessitatibus.
+          "Garantizar la disponibilidad de agua y su gestión sostenible y el
+          saneamiento para todos" El agua libre de contaminación, accesible para
+          todos y en cantidad suficiente para mantener los ecosistemas es parte
+          esencial del mundo en que queremos vivir. Aunque aparentemente hay
+          abundancia de agua en el planeta, esta no siempre está disponible en
+          la forma y calidad necesarias. La escasez de recursos hídricos
+          provocada por el cambio climático y una gestión inadecuada, la mala
+          calidad del agua y el saneamiento deficiente influyen de manera
+          negativa en la seguridad alimentaria, los medios de subsistencia y las
+          oportunidades de educación de las familias pobres de todo el mundo. En
+          América Latina y el Caribe, la sequía afecta principalmente a las
+          zonas más pobladas y los países más vulnerables, recrudece la
+          inseguridad hídrica y reduce la capacidad de producir alimentos. En
+          2050, al menos una de cada cuatro personas probablemente vivirá en un
+          país afectado por la escasez crónica y reiterada de agua dulce.
         </p>
       </article>
       <article>
@@ -155,17 +222,14 @@
           alt="imagen Objetivo de Desarrollo Sustentable 7 energia asequible y no contaminante"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-          hic maiores natus incidunt id cupiditate consequuntur ea, aliquam
-          unde! Totam officiis ratione nobis modi! A odio sed, sit magnam,
-          aperiam magni perspiciatis error consectetur iste alias ullam esse
-          adipisci, sequi quia modi dolore debitis accusamus at quidem ratione.
-          Porro molestiae recusandae incidunt quod illo voluptates
-          necessitatibus iste. Ullam veritatis itaque, explicabo quas culpa
-          accusantium excepturi architecto doloribus ipsum possimus blanditiis
-          accusamus, aut esse eius adipisci. Nemo aut mollitia iure! Quos
-          veritatis vitae, eum tempore aliquam, nulla minus quod non hic
-          perferendis totam enim odio ipsa, asperiores porro ullam culpa eos.
+          "Garantizar el acceso a una energía asequible, segura, sostenible y
+          moderna para todos" La energía es fundamental en todos los desafíos y
+          oportunidades a los que hace frente el mundo hoy. Toda actividad en la
+          sociedad moderna actual requiere energía para operar. Sin embargo, el
+          uso de combustibles fósiles ha impactado de forma negativa en el medio
+          ambiente, por lo que es necesario transformar nuestro sistema
+          energético para que sea renovable y sostenible. La energía sostenible
+          es una oportunidad que transforma vidas, economías y el planeta.
         </p>
       </article>
       <article>
@@ -174,18 +238,20 @@
           alt="imagen Objetivo de Desarrollo Sustentable 8 trabajo decente y crecimiento economico"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem id sed
-          placeat, minus laborum ad est? Optio est illo quod, nemo qui
-          consectetur id iure sequi necessitatibus iusto, distinctio esse dolor
-          magni! Veniam amet maiores laudantium officia dolores repudiandae.
-          Libero minima officia laudantium, asperiores magni doloremque
-          consequuntur vitae maiores error facere, similique sequi. Aspernatur
-          dicta minus pariatur beatae quibusdam aliquid facilis vel, fuga
-          debitis iusto illo, neque quis porro. Numquam, ipsam perferendis
-          expedita necessitatibus distinctio harum error earum! Dignissimos
-          inventore voluptas provident debitis fugit error fuga rerum.
-          Voluptatum eaque commodi ullam est laboriosam vel amet! Illum incidunt
-          iure dolorem qui.
+          "Promover el crecimiento económico sostenido, inclusivo y sostenible,
+          el empleo pleno y productivo y el trabajo decente para todos" En 2018,
+          alrededor del 30,8% de la población de América Latina y el Caribe
+          estaba bajo la línea de la pobreza; en muchos lugares el hecho de
+          tener un empleo no garantiza la capacidad para escapar de ella .
+          Debemos reflexionar sobre este progreso lento y desigual y revisar
+          nuestras políticas económicas y sociales destinadas a erradicar la
+          pobreza, reducir la desigualdad y garantizar el trabajo decente. La
+          continua falta de oportunidades de trabajo decente, la insuficiente
+          inversión y el bajo consumo producen una erosión del contrato social
+          básico subyacente en las sociedades democráticas: el derecho de todos
+          a compartir el progreso. La creación de empleos de calidad sigue
+          constituyendo un gran desafío para casi todas las economías de la
+          región.
         </p>
       </article>
       <article>
@@ -194,18 +260,21 @@
           alt="imagen Objetivo de Desarrollo Sustentable 9 industria, innovacion e infraestructura"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-          laboriosam impedit magni incidunt veritatis eius nemo id assumenda
-          quam repudiandae ex illo ad eum asperiores, vitae quia dolor corporis
-          alias molestias voluptatum quis dicta? Hic consectetur neque
-          exercitationem nesciunt impedit. Excepturi deleniti quas itaque
-          corporis ullam ducimus, adipisci nulla consequuntur culpa eaque
-          asperiores blanditiis necessitatibus officiis tenetur, omnis porro?
-          Facilis, autem debitis. Inventore, laboriosam natus odit laborum
-          quidem labore vitae odio nulla modi, commodi reprehenderit temporibus
-          est corporis a sed hic fugiat porro suscipit ducimus debitis maiores
-          nam. Ullam sunt officiis praesentium sapiente doloremque. Rem
-          consequatur animi possimus dolores architecto!
+          "Construir infraestructuras resilientes, promover la industrialización
+          inclusiva y sostenible y fomentar la innovación" Las inversiones en
+          infraestructura (transporte, riego, energía y tecnología de la
+          información y las comunicaciones) son fundamentales para lograr el
+          desarrollo sostenible y empoderar a las comunidades en numerosos
+          países. Desde hace tiempo se reconoce que para incrementar la
+          productividad y los ingresos y mejorar los resultados sanitarios y
+          educativos se necesitan inversiones en infraestructura. El ritmo de
+          crecimiento y urbanización también está generando la necesidad de
+          contar con nuevas inversiones en infraestructuras sostenibles que
+          permitirán crear ciudades más resistentes al cambio climático e
+          impulsar el crecimiento económico y la estabilidad social. Además de
+          la financiación gubernamental y la asistencia oficial para el
+          desarrollo, se está promoviendo la financiación del sector privado
+          para los países que necesitan apoyo financiero, tecnológico y técnico.
         </p>
       </article>
       <article>
@@ -214,17 +283,12 @@
           alt="imagen Objetivo de Desarrollo Sustentable 10 reduccion de las desigualdades"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius dicta
-          omnis maiores repellendus delectus quam molestiae, atque tenetur optio
-          ea, qui provident voluptatum non odit sapiente? Placeat repudiandae id
-          voluptatum ipsam. Quaerat sed sit sapiente molestias, eaque tempore
-          iste cumque perspiciatis voluptatum illum corporis. Tempora voluptates
-          commodi vel nobis magnam culpa eaque neque cumque excepturi, eum, quia
-          nulla? Impedit at debitis dolor dolore expedita iure aut, doloremque
-          sed, quae quidem incidunt adipisci vel minus error id dignissimos
-          suscipit cum facere voluptatum autem beatae tempore provident cumque
-          nesciunt? Vero vel veniam deleniti, culpa debitis, repellendus quia
-          iste sit neque, sunt numquam.
+          "Reducir la desigualdad en los países y entre ellos" La Agenda 2030
+          para el Desarrollo Sostenible expresa un consenso sobre la necesidad
+          de avanzar hacia sociedades más inclusivas, solidarias y cohesionadas,
+          y pone a las personas en el centro, promoviendo un modelo de
+          desarrollo sostenible y haciendo un llamado a “que nadie se quede
+          atrás” en la senda del desarrollo”.
         </p>
       </article>
       <article>
@@ -233,18 +297,22 @@
           alt="imagen Objetivo de Desarrollo Sustentable 11 ciudades y comunidades sostenibles"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel tenetur
-          recusandae assumenda officiis molestias? Corrupti impedit dolorem
-          numquam iusto harum architecto placeat, dolore quae perferendis et,
-          vel nobis, dicta praesentium ea optio reprehenderit? Amet nostrum
-          velit modi, possimus, quisquam natus nemo iste perspiciatis animi
-          facere voluptatem cumque, rerum deserunt fugit nesciunt veniam
-          maiores? Nam culpa, possimus maiores, dolores necessitatibus autem
-          cupiditate ratione hic tempora repellat ab? Earum cum eius ipsam
-          aperiam explicabo suscipit ducimus debitis distinctio possimus qui
-          ratione blanditiis, nisi impedit sit eaque consectetur necessitatibus
-          illo facere a libero exercitationem sapiente pariatur non recusandae!
-          Quam dolor modi perspiciatis rem!
+          "Lograr que las ciudades y los asentamientos humanos sean inclusivos,
+          seguros, resilientes y sostenibles" Las ciudades son hervideros de
+          ideas, comercio, cultura, ciencia, productividad y desarrollo social,
+          entre otras muchas cosas. En el mejor de los casos, las ciudades han
+          permitido a las personas progresar social y económicamente. Sin
+          embargo, son muchos los problemas que existen para lograr que las
+          ciudades continúen siendo fuentes de empleo y prosperidad sin ejercer
+          presión sobre la tierra y los recursos. Entre los problemas comunes a
+          todas las ciudades se incluyen la congestión, la falta de fondos para
+          prestar servicios básicos, la escasez de vivienda adecuada y el
+          deterioro de la infraestructura. Dichos problemas pueden superarse, de
+          manera que las ciudades puedan seguir prosperando y creciendo y, al
+          mismo tiempo, aprovechando mejor los recursos y reduciendo la
+          contaminación y la pobreza. Es deseable un futuro en el que las
+          ciudades brinden acceso a servicios básicos, energía, vivienda,
+          transporte y más oportunidades para todos.
         </p>
       </article>
       <article>
@@ -253,18 +321,15 @@
           alt="imagen Objetivo de Desarrollo Sustentable 12 produccion y consumo responsable"
         />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
-          quod exercitationem eius repudiandae illo delectus. Tenetur eligendi
-          natus, ex adipisci placeat quis aperiam molestias laborum excepturi
-          voluptate eos optio dolor unde suscipit harum. Ipsum temporibus
-          excepturi, laudantium mollitia assumenda provident inventore deserunt
-          dicta esse possimus iste rem molestiae dolores! Perspiciatis assumenda
-          culpa reprehenderit obcaecati maiores inventore quibusdam. Expedita,
-          vel! Beatae culpa odit ullam minima, suscipit omnis ea numquam illum
-          quo dolorem? Iusto nostrum ullam cumque architecto reprehenderit porro
-          odit nam saepe est doloremque eligendi repellendus ut quae ex quaerat
-          facilis enim, voluptatem quas. Veritatis error, porro hic tempora quae
-          labore!
+          "Garantizar modalidades de consumo y producción sostenibles" El
+          consumo y la producción sostenibles consisten en fomentar el uso
+          eficiente de los recursos y la energía, la construcción de
+          infraestructuras sostenibles, la mejora del acceso a los servicios
+          básicos y la creación de empleos ecológicos y decentes. Todo ello se
+          traduce en una mejor calidad de vida para todos y ayuda a lograr
+          planes generales de desarrollo, reducir los futuros costos económicos,
+          ambientales y sociales, aumentar la competitividad económica y reducir
+          la pobreza.
         </p>
       </article>
       <article>
@@ -273,18 +338,21 @@
           alt="imagen Objetivo de Desarrollo Sustentable 13 accion por el clima"
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe modi
-          nemo deleniti officia placeat. In ut saepe, dicta dignissimos magni
-          cupiditate voluptas sequi ea assumenda unde necessitatibus blanditiis
-          praesentium sed repellat vero facere recusandae, libero neque quae
-          labore soluta, beatae deserunt. Esse dignissimos modi sapiente beatae
-          velit, at adipisci voluptas cum architecto non similique, voluptate
-          tempore suscipit repudiandae cumque ullam illum nihil qui quaerat?
-          Enim autem sint voluptate consequatur. Nam ad provident magni nemo
-          dolore, voluptatum eveniet voluptatibus voluptas officia blanditiis
-          iste porro? Quis sed expedita ipsam beatae magnam nobis incidunt
-          repudiandae voluptatem esse iste consectetur error, voluptatum numquam
-          atque!
+          "Adoptar medidas urgentes para combatir el cambio climático y sus
+          efectos" El cambio climático afecta a todos los países del mundo.
+          Tiene un impacto negativo en los ecosistemas, las economías y la vida
+          de las personas y, en el futuro, sus efectos serán aún peores. Entre
+          las manifestaciones del cambio climático, se incluye el aumento de la
+          temperatura, la modificación de los patrones de precipitación, el
+          incremento del nivel del mar y la intensificación de los fenómenos
+          meteorológicos extremos. Las emisiones de gases de efecto invernadero
+          producidas por las actividades humanas son la causa de este fenómeno.
+          La concentración de emisiones ha aumentado a niveles sin precedentes.
+          Si no actuamos de inmediato, la temperatura media de la superficie del
+          mundo podría elevarse hasta 4 grados centígrados a fines de este
+          siglo, y el aumento podría ser mayor en algunas zonas del planeta. Las
+          consecuencias negativas del cambio climático afectarán en mayor medida
+          a las personas más pobres y vulnerables.
         </p>
       </article>
       <article>
@@ -293,18 +361,16 @@
           alt="imagen Objetivo de Desarrollo Sustentable 14 vida submarina"
         />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, optio
-          similique. Voluptatum et eveniet commodi recusandae iusto quaerat
-          possimus consectetur? Eligendi cumque voluptate magnam maiores! Illo
-          natus quo tenetur deserunt aut architecto iusto iste deleniti tempora
-          exercitationem nobis velit maiores earum aliquam nulla dolor
-          accusantium, cupiditate, ex sunt atque reiciendis. Velit architecto,
-          aliquid minima odit esse consequuntur illo laudantium ipsam labore ea
-          provident expedita eaque omnis libero optio voluptatum animi quod.
-          Ratione itaque autem rerum sit nihil temporibus magnam totam, ut velit
-          saepe, nemo quae dignissimos et. Officiis vitae consectetur sequi,
-          provident perspiciatis nulla, exercitationem laudantium culpa
-          laboriosam dolorum eius!
+          "Conservar y utilizar en forma sostenible los océanos, los mares y los
+          recursos marinos para el desarrollo sostenible" Los océanos del mundo
+          —su temperatura, química, corrientes y vida— mueven sistemas mundiales
+          que hacen que la Tierra sea habitable para la humanidad. Las
+          precipitaciones, el agua potable, el clima, el tiempo, las costas,
+          gran parte de los alimentos e incluso el oxígeno del aire provienen,
+          en última instancia, del mar y son regulados por este. Históricamente,
+          los océanos y los mares han sido cauces vitales del comercio y el
+          transporte. La gestión sostenible de este recurso mundial esencial es
+          una característica clave de un futuro con bienestar.
         </p>
       </article>
       <article>
@@ -313,18 +379,19 @@
           alt="imagen Objetivo de Desarrollo Sustentable 15 vida de ecosistemas terrestres"
         />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores,
-          doloribus. Iure eos deleniti eum natus inventore nisi repellendus
-          dolor quisquam. Perspiciatis laboriosam architecto iure minima eius a
-          pariatur! Sunt sit ducimus ex inventore architecto error atque
-          ratione? Dicta deserunt optio, reprehenderit dolores doloribus numquam
-          corporis magni dolorum molestias minima ex sed voluptatum beatae quae
-          eaque sapiente asperiores vero inventore laudantium fugiat error,
-          eligendi quaerat repellendus! Laudantium nulla eaque suscipit numquam.
-          Nam, et autem. Quos, optio incidunt! Eos quae, quibusdam maxime iusto
-          sint maiores excepturi nulla libero, laboriosam doloremque labore. Eos
-          fugiat consequatur magni quia eligendi, facilis tenetur asperiores
-          ipsam doloribus!
+          "Gestionar sosteniblemente los bosques, luchar contra la
+          desertificación, detener e invertir la degradación de las tierras y
+          detener la pérdida de biodiversidad" El 30% de la superficie terrestre
+          está cubierta por bosques, y estos, además de proporcionar seguridad
+          alimentaria y refugio, son fundamentales para combatir el cambio
+          climático, pues protegen la diversidad biológica y las viviendas de la
+          población indígena. Cada año desaparecen 13 millones de hectáreas de
+          bosque y la degradación persistente de las zonas áridas ha provocado
+          la desertificación de 3.600 millones de hectáreas. La deforestación y
+          la desertificación —provocadas por las actividades humanas y el cambio
+          climático— suponen grandes retos para el desarrollo sostenible y han
+          afectado las vidas y los medios de vida de millones de personas en la
+          lucha contra la pobreza.
         </p>
       </article>
       <article>
@@ -333,17 +400,15 @@
           alt="imagen Objetivo de Desarrollo Sustentable 16 paz justicia e instituciones solidas"
         />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at id
-          culpa illum quibusdam asperiores corporis, sint cupiditate atque
-          libero voluptas nisi alias repudiandae? Corporis dolore consequatur,
-          velit ab animi harum enim vitae amet culpa quo assumenda! Corporis eum
-          molestias repellendus vel ducimus officiis, natus, aperiam vero quod
-          consectetur accusantium maiores, neque non adipisci. Deleniti
-          aspernatur necessitatibus ut molestiae id doloremque sed, possimus ad
-          adipisci excepturi facere eligendi beatae quaerat blanditiis nemo quis
-          reprehenderit cupiditate minima atque accusamus nisi fuga! Atque rerum
-          mollitia iure molestias saepe ipsum, facilis dolor? Minus nostrum
-          dolor rerum quas at quia repellat! Eaque, quisquam illum.
+          "Promover sociedades, justas, pacíficas e inclusivas" La paz, la
+          transparencia, la rendición de cuentas y el estado de derecho son
+          elementos indispensables para alcanzar el desarrollo sostenible. Entre
+          las principales metas del Objetivo 16 se encuentran el garantizar la
+          igualdad de acceso a la justicia, la adopción de decisiones
+          inclusivas, participativas y representativas y el acceso público a la
+          información, así como el establecimiento de instituciones eficaces,
+          responsables y transparentes y la adopción de leyes y políticas no
+          discriminatorias a favor del desarrollo sostenible.
         </p>
       </article>
       <article>
@@ -352,17 +417,13 @@
           alt="imagen Objetivo de Desarrollo Sustentable 17 alianzas para lograr los objetivos"
         />
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, possimus
-          dolores in quidem omnis similique nihil hic ex neque cumque fuga saepe
-          doloremque sint quasi inventore, porro reprehenderit quae beatae.
-          Ducimus officiis quibusdam eos recusandae mollitia ad enim placeat,
-          magnam nesciunt magni. Magnam aperiam assumenda delectus quae, illo,
-          repellat aut officia ut dolor earum consequuntur. Voluptatem, dolore
-          magnam! Libero modi officia impedit rerum voluptate, iure optio itaque
-          eaque. Commodi ipsam earum nisi, explicabo repudiandae at dolor,
-          veritatis quae itaque corrupti similique. Corporis aspernatur adipisci
-          non, sed repellendus eveniet doloribus praesentium necessitatibus
-          saepe eligendi, esse sequi incidunt maxime. Magni, alias impedit.
+          "Revitalizar la Alianza Mundial para el Desarrollo Sostenible" Para
+          que una agenda de desarrollo sostenible sea eficaz, se necesitan
+          alianzas entre los gobiernos, el sector privado y la sociedad civil.
+          Estas alianzas inclusivas se construyen sobre la base de principios y
+          valores, una visión compartida y objetivos comunes que otorgan
+          prioridad a las personas y al planeta, y son necesarias a nivel
+          mundial, regional, nacional y local.
         </p>
       </article>
     </main>
@@ -383,5 +444,11 @@
         <p>rriisalta@gmail.com</p>
       </div>
     </footer>
+    <!-- JS de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
