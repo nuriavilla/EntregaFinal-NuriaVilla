@@ -1,14 +1,6 @@
-/* Error: expected "=".
- *   ,
- * 1 | $fuenteprincipal: Poppins <link="href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap"
- *   |                                 ^
- *   '
- *   scss\_vars.scss 1:33  @import
- *   scss\style.scss 1:9   root stylesheet */
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
+    "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
