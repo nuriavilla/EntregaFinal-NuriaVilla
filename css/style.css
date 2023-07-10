@@ -1,7 +1,35 @@
-body::before {
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+#logosaltaods {
+  width: 200px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  transition: 2seg;
+}
+
+.btn:hover {
+  background: #27394e;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
