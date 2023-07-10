@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/_global.scss","../scss/_agenda2030.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;;;ACrBF;EACE;EACA;;;AAGF;EACE;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_global.scss","../scss/_index.scss","../scss/_vars.scss","../scss/_agenda2030.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE;;;AAGF;EACE;;;ACrBF;EACE,kBCDc;;;ACAhB;EACE;EACA;;;AAGF;EACE;EACA","file":"style.css"}

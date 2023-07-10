@@ -22,6 +22,10 @@
   width: 30px;
 }
 
+.bodytext {
+  background-color: #a7e2fa;
+}
+
 .btn {
   cursor: pointer;
   transition: 2seg;
