@@ -27,11 +27,11 @@
 }
 
 .footer {
-  background-color: #c0ecfc;
+  background-color: #103f68;
 }
 
 .btn {
-  color: #155388;
+  color: #103f68;
   cursor: pointer;
   transition: 2seg;
 }
@@ -46,6 +46,10 @@
 }
 
 .card {
+  background-color: #c0ecfc;
+}
+
+#text-institucional {
   background-color: #c0ecfc;
 }
 
