@@ -23,17 +23,26 @@
 }
 
 #bodytext {
-  background-color: #c2eafa;
+  background-color: #c0ecfc;
+}
+
+.footer {
+  background-color: #c0ecfc;
 }
 
 .btn {
+  color: #1d7ccf;
   cursor: pointer;
   transition: 2seg;
 }
 
 .btn:hover {
-  background: #27394e;
-  color: black;
+  background: #8ec3f5;
+  color: #0b4772;
+}
+
+.footer {
+  background-color: #c0ecfc;
 }
 
 /*# sourceMappingURL=style.css.map */

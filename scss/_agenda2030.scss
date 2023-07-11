@@ -1,9 +1,14 @@
 .btn {
+  color: $celeste-oscuro;
   cursor: pointer;
   transition: 2seg;
 }
 
 .btn:hover {
-  background: #27394e;
-  color: black;
+  background: #8ec3f5;
+  color: #0b4772;
+}
+
+.footer {
+  background-color: $celeste-claro;
 }
