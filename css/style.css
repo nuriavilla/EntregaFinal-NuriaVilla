@@ -31,14 +31,22 @@
 }
 
 .btn {
-  color: #1d7ccf;
+  color: #155388;
   cursor: pointer;
   transition: 2seg;
 }
 
 .btn:hover {
-  background: #8ec3f5;
+  background: #56bce0;
   color: #0b4772;
+}
+
+.footer {
+  background-color: #c0ecfc;
+}
+
+.card {
+  background-color: #c0ecfc;
 }
 
 .footer {
