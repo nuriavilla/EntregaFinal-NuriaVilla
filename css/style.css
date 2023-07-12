@@ -45,8 +45,16 @@
   background-color: #c0ecfc;
 }
 
-.card {
+#card-agenda2030 {
   background-color: #c0ecfc;
+}
+
+.card {
+  background-color: rgb(248, 247, 247);
+}
+
+#odsicon {
+  margin-bottom: 5px;
 }
 
 #text-institucional {
