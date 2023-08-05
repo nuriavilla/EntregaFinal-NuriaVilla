@@ -34,7 +34,7 @@
   <body>
     <header>
       <!-- Barra de navegacion -->
-      <nav class="navbar navbar-expand-lg sticky-top py-4">
+      <nav class="navbar navbar-expand-lg fixed-top py-4">
         <div class="container-fluid">
           <a class="navbar-brand">
             <a href="../index.html">
@@ -121,22 +121,55 @@
       </div>
     </article>
 
-    <!-- Imagen Principal -->
-    <section id="imagen institucional">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-12 d-flex justify-content-center align-items-center rounded-start"
-          >
-            <img
-              class="img-fluid d-sm-block rounded"
-              src="../imagenes/foto_coco.jpeg"
-              alt="secretaria de rrii provincia de salta"
-            />
-          </div>
+    <!-- CARRUSEL -->
+
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide p-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="../imagenes/foto_coco.jpeg"
+            class="d-block w-100"
+            alt="Secretaria de RRII"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="../imagenes/equipo_rrii.jpg"
+            class="d-block w-100"
+            alt="equipo de trabajo de la secretaria"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="../imagenes/equipo_rrii_salta.jpg"
+            class="d-block w-100"
+            alt="reunion de autoridades"
+          />
         </div>
       </div>
-    </section>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
 
     <!-- segunda seccion -->
 
